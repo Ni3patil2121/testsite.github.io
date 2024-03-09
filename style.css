@@ -12,7 +12,6 @@ body {
     line-height: 1.6;
 }
 
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -20,6 +19,13 @@ body {
     
 }
 
+.container-about img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 60vh;
+    transition-property: initial;
+}
 /* Header styles */
 header {
     background-color: #838486;
@@ -67,7 +73,7 @@ nav a:hover {
 
 /* Sidebar styles */
 .sidebar {
-    background-color: transparent;
+    background-color:#9ce4c9;
     padding: 20px;
 }
 .sidebar ul li{
